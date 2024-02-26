@@ -12,6 +12,7 @@ bot = telebot.TeleBot(token)
 remove_keyboard = telebot.types.ReplyKeyboardRemove()
 
 # Старт
+# Start
 @bot.message_handler(commands=['start'])
 def start_message(message):
     chatID = message.chat.id
