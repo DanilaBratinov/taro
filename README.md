@@ -1,1 +1,1 @@
-# taro
+# Python and server test app
